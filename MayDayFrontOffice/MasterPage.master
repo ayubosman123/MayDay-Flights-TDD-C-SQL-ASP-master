@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>  
+  
+<html xmlns="http://www.w3.org/1999/xhtml">  
+<head runat="server">  
+    <title>MayDay Flights and Travel LTD</title>  
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+    </asp:ContentPlaceHolder>  
+    <style type="text/css">
+        .auto-style2 {
+            width: 248px;
+            height: 81px;
+            margin-bottom: 1px;
+        }
+        .auto-style3 {
+            color: #FFFFFF;
+        }
+        .auto-style5 {
+            width: 231px;
+            height: 68px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .auto-style6 {
+            width: 118px;
+            height: 67px;
+        }
+    </style>
+</head>  
+<body>  
+    <form id="form1" runat="server">
+    
+
+<head>  
+    <title>MayDay Flights and Travel</title>  
+    
+</head>  
+<body>  
+
+<nav id="nav">  
+    <ul>     
+    <img src="/Images/rsz_mayday.jpg" class="auto-style2" />
+        <li><a href="/Misc/Home.aspx">Home</a></li>  
+        <li><a href="/Customer/AdminHomepage.aspx">Customers</a></li>  
+        <li><a href="/Bookings/Default.aspx">Bookings</a></li>  
+        <li><a href="/Flights/DefaultFlight.aspx">Flights</a></li>  
+        <li><a href="/TourOperators/Default.aspx">Tour Operators</a></li>
+        <li><a href="/Employees/EmployeeMenu.aspx">Human Resources</a></li>  
+        
+    </ul>  
+&nbsp;</nav>  
+  
+  
+    <div id="con">  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+          
+            <p>
+                <br />
+            </p>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          
+        </asp:ContentPlaceHolder>  
+    </div>  
+  
+  
+<footer id="footer">  
+     <a href="/Misc/About Us.aspx"><span class="auto-style3">About Us</span></a>
+    <a href="/Misc/Contact Us.aspx"><span class="auto-style3">Contact Us</span></a>
+    <a href="/Misc/FAQ.aspx"><span class="auto-style3">FAQ</span></a>
+    <a href="/Misc/TnCs.aspx"><span class="auto-style3">Terms and Conditions</span></a>
+     /footer>  
+</body>  
+  
+    </form>
+    <img alt="" class="auto-style5" src="/Images/social-media-icons-black_353694.jpg" /><img alt="" class="auto-style6" src="/Images/white-paypal-512.png" />
+    </body>  
+</html>  
