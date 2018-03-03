@@ -156,7 +156,7 @@ namespace MyTesting
         //    string DateT = Date.ToString();
 
         //    Error = AnCustomer.Valid(PostCode, DateT);
-        //    Assert.AreNotEqual(Error, "");
+        //    Assert.AreNotEqual(Error, ""); 
         ///}
         ///
         [TestMethod]
